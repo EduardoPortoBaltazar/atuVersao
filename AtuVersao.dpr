@@ -2,7 +2,8 @@ program AtuVersao;
 
 uses
   Vcl.Forms,
-  FAtuVersao in 'Source\FAtuVersao.pas' {Form1};
+  FAtuVersao in 'Source\FAtuVersao.pas' {Form1},
+  internet.Download in 'Ctrl\internet.Download.pas';
 
 {$R *.res}
 
